@@ -98,6 +98,17 @@ async function wapper() {
     [7, 48],
     [8, 48],
     [9, 48],
+    [0, 47],
+    [1, 47],
+    [2, 47],
+    [3, 47],
+    [4, 47],
+    [5, 47],
+    [6, 47],
+    [7, 47],
+    [8, 47],
+    [9, 47],
+    [10, 47],
   ].map(([page, level]) =>
     whatever(`${PLAY_DATA_URL}/mu_lv.html?page=${page}&lv=${level}`, level)
   );
