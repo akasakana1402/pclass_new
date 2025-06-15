@@ -1,7 +1,7 @@
 async function wapper() {
   let domparser = new DOMParser();
 
-  const VERSION = "v1.2.0";
+  const VERSION = "v1.0.0";
   console.log("Running popn class script", VERSION);
 
   const round = (number, p) => {
@@ -13,17 +13,17 @@ async function wapper() {
   };
 
   const MEDAL_BONUS = {
-    a: 5000,
-    b: 5000,
-    c: 5000,
-    d: 5000,
-    e: 3000,
-    f: 3000,
-    g: 3000,
-    h: 0,
-    i: 0,
-    j: 0,
-    k: 3000,
+    a: 5000,/*perfect*/
+    b: 5000,/*silver star*/
+    c: 5000,/*silver diamond*/
+    d: 5000,/*silver circle*/
+    e: 3000,/*bronze star*/
+    f: 3000,/*bronze diamond*/
+    g: 3000,/*bronze circle*/
+    h: 0,/*black star*/
+    i: 0,/*black diamond*/
+    j: 0,/*black circle*/
+    k: 3000,/*easy*/
     none: 0,
   };
 
