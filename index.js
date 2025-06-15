@@ -1,7 +1,7 @@
 async function wapper() {
   let domparser = new DOMParser();
 
-  const VERSION = "v1.1.3";
+  const VERSION = "v1.2.0";
   console.log("Running popn class script", VERSION);
 
   const round = (number, p) => {
@@ -235,7 +235,7 @@ async function wapper() {
       .join("")}
   </table>
   </div>
-  <div class="footnote">ポックラスクリプト${VERSION}</div>
+  <div class="footnote">ポックラスクリプト2nd${VERSION}</div>
   `;
 
   document.body.innerHTML = "";
