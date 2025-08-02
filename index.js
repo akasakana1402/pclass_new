@@ -80,6 +80,16 @@ async function wapper() {
   }
 
   const promises = [
+    [0, 48],
+    [1, 48],
+    [2, 48],
+    [3, 48],
+    [4, 48],
+    [5, 48],
+    [6, 48],
+    [7, 48],
+    [8, 48],
+    [9, 48],
     [0, 47],
     [1, 47],
     [2, 47],
@@ -91,7 +101,6 @@ async function wapper() {
     [8, 47],
     [9, 47],
     [10, 47],
-    [0, 46],
     [1, 46],
     [2, 46],
     [3, 46],
@@ -104,8 +113,7 @@ async function wapper() {
     [10, 46],
     [11, 46],
     [12, 46],
-    [13, 46],
-    [14, 46]
+    [13, 46]
   ].map(([page, level]) =>
     whatever(`${PLAY_DATA_URL}/mu_lv.html?page=${page}&lv=${level}`, level)
   );
